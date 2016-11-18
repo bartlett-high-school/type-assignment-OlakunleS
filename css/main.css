@@ -1,5 +1,21 @@
 /* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
+@font-face {
+    font-family: 'abhaya_libreregular';
+    src: url('abhayalibre-regular-webfont.woff2') format('woff2'),
+         url('abhayalibre-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /* Start the CSS*/
 body {
@@ -21,30 +37,34 @@ body {
 	box-shadow: 0px 0px 15px 5px rgba(0,0,0,.15);
 }
 
-h1 {
+h1 {font-family: 'abhaya_libreregular', serif;
 
 }
 
-h2 {
+h2 {font-family: 'robotoregular', sans-serif;
 
 }
 
-h3 {
+h3 {font-family: 'abhaya_libreregular', serif;
 
 }
 
 h4 {
+	font-family: 'robotoregular', sans-serif;
 
 }
 
 h5 {
+	font-family: 'abhaya_libreregular', serif;
 
 }
 
 h6 {
+	font-family: 'robotoregular', sans-serif;
 
 }
 
 p {
+	font-family: 'abhaya_libreregular', serif;
 
 }
